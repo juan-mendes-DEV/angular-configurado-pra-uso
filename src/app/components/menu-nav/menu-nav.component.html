@@ -1,0 +1,30 @@
+<div class="menu-nav">
+  <div class="menu-img">
+    <img src="https://via.placeholder.com/50x50" alt="exemplo img">
+  </div>
+  <div class="menu-links">
+    <a
+    [routerLink]="['/']"
+    [routerLinkActive]="['activated']"
+    [routerLinkActiveOptions]="{exact: true}"
+    >
+        home
+    </a>
+
+    <a
+    [routerLink]="['/sobre']"
+    [routerLinkActive]="['activated']"
+    >sobre</a>
+
+    <a
+    [routerLink]="['/contato']"
+    [routerLinkActive]="['activated']"
+    >contate-nos</a>
+
+    <a
+    [routerLink]="['/projetos']"
+    [routerLinkActive]="['activated']"
+    >meus projetos</a>
+
+  </div>
+</div>
